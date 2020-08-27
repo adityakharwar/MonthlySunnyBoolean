@@ -1,0 +1,67 @@
+body{
+  margin: 0px auto;
+}
+
+button{
+  height:400px;
+  width:50%;
+  float: left;
+  border: 3px solid maroon;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.one{
+  background-image: linear-gradient( 109.6deg,  rgba(177,173,219,1) 11.2%, rgba(245,226,226,1) 91.1% );
+  border:6px double black;
+}
+.two{
+  background-image: radial-gradient( circle 321px at 8.3% 75.7%,  rgba(209,247,241,1) 0%, rgba(249,213,213,1) 81% );
+  border:6px double black;
+}
+.three{
+  background-image: linear-gradient( 89.9deg,  rgba(178,253,238,0.96) -8.1%, rgba(207,244,254,1) 26.3%, rgba(207,244,254,0.48) 47.5%, rgba(254,219,243,0.63) 61.5%, rgba(254,219,243,1) 78.7%, rgba(254,207,210,1) 109.2% );
+  border:6px double black;
+}
+.four{
+  background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% );
+  border:6px double black;
+}
+
+#bird{
+  height:510px;
+  width: 800px;
+  color: maroon;
+  border:4px solid black;
+  font-size: 31px;
+  background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(249,143,253,1) 100.2% );
+}
+img{
+  border:3px solid black;
+  float: left;
+  margin: 20px;
+}
+#game{
+  height:540px;
+  width: 800px;
+  border: 4px solid black;
+  font-size: 31px;
+  background-image: linear-gradient( 68.4deg,  rgba(248,182,204,1) 0.5%, rgba(192,198,230,1) 49%, rgba(225,246,240,1) 99.8% );
+  color: darkblue;
+}
+#flower{
+  height:575px;
+  width: 800px;
+  border:4px solid black;
+  font-size: 31px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,193,104,1) 0%, rgba(251,128,128,1) 90% );
+  color:darkred;
+}
+#animal{
+  height:620px;
+  width:880px;
+  border: 4px solid black;
+  font-size: 31px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(255,200,124,1) 0%, rgba(252,251,121,1) 90% );
+  color: palevioletred;
+}
